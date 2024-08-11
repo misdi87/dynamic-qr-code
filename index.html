@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Display Image Above Text and Link</title>
+    <title>Display Image, Text, and Two Links</title>
     <style>
         body {
             display: flex;
@@ -25,6 +25,11 @@
             color: #333;
             margin-bottom: 20px;
         }
+        .links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
         .link {
             font-size: 18px;
             color: #007bff;
@@ -33,12 +38,14 @@
     </style>
 </head>
 <body>
-    <img class="image" src="grandma.png" >
-   <div class="message">
-        רחל פרידמן:
+    <img class="image" src="grandma.png">
+    <div class="message">
+       רחל פרידמן:
         אמא, סבתא וסבתא רבה אהובה
     </div>
+    <div class="links">
         <a class="link" href="https://drive.google.com/file/d/1PCfsDggI9Sxo7Zx6sNqM1txOTUTT-yJj/view?usp=sharing">מתכונים</a>
-    <a class="link" href="https://drive.google.com/file/d/1jSlC0T_W0XnWOpLStq8FjVOVakMyhOU6/view?usp=sharing">תמונות</a>
+    	<a class="link" href="https://drive.google.com/file/d/1jSlC0T_W0XnWOpLStq8FjVOVakMyhOU6/view?usp=sharing">תמונות</a>
+    </div>
 </body>
 </html>
