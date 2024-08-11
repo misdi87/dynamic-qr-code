@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Display Text and Link</title>
+    <title>Display Image Above Text and Link</title>
     <style>
         body {
             display: flex;
@@ -14,6 +14,11 @@
             font-family: Arial, sans-serif;
             text-align: center;
             background-color: #f0f0f0;
+        }
+        .image {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
         }
         .message {
             font-size: 24px;
@@ -28,11 +33,12 @@
     </style>
 </head>
 <body>
-    <div class="message">
-        רחל פרידמן,
+    <img class="image" src="https://drive.google.com/file/d/1kDWcWX1TwypDxkpNyRwF-xhv_GjJPfwm/view?usp=sharing" alt="Grandma">
+   <div class="message">
+        רחל פרידמן:
         אמא, סבתא וסבתא רבה
     </div>
-    <a class="link" href="https://drive.google.com/file/d/1PCfsDggI9Sxo7Zx6sNqM1txOTUTT-yJj/view?usp=sharing">מתכונים</a>
+        <a class="link" href="https://drive.google.com/file/d/1PCfsDggI9Sxo7Zx6sNqM1txOTUTT-yJj/view?usp=sharing">מתכונים</a>
     <a class="link" href="https://drive.google.com/file/d/1jSlC0T_W0XnWOpLStq8FjVOVakMyhOU6/view?usp=sharing">תמונות</a>
 </body>
 </html>
