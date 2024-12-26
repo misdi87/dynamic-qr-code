@@ -1,1 +1,1 @@
-# dynamic-qr-code
+# Rachel Fridman
